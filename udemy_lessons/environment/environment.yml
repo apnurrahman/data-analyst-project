@@ -1,0 +1,19 @@
+name: udemy_lessons
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - plotly
+  - jupyter
+  - ipykernel
+  - openpyxl
+  - pyarrow
+  - scikit-learn
+  - sqlalchemy
+  - duckdb 
+  - great-expectations
