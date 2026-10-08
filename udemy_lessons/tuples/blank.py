@@ -59,3 +59,15 @@ back_again = list(tuple_five)
 back_again.append(6)
 round_and_round = tuple(back_again)
 print(f"Adding 6: {round_and_round}")
+
+#assignment 11
+tuple_char = tuple(("h", "a", "l", "l", "o"))
+print(f"Initial: {tuple_char}")
+print(f"Initial joined: {"".join(tuple_char)}")
+
+#assignment 12
+places = {(5,10): "Tavern", (2, 3): "Restaurant", (8, 9): "Dungeon"}
+for k, v in places.keys():
+    print(f"Coordinates {k,v} is a {places.get((k,v))}")
+
+#assignment 13
